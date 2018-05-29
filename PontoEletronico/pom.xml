@@ -1,7 +1,31 @@
 <project>
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>br.ufla.computacao.diego</groupId>
-	<artifactId>PontoEletronico</artifactId>
-	<version>1.0</version>
-</project>
+    <!--identificacao-->
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>br.ufla.computacao.diego</groupId>
+    <artifactId>PontoEletronico</artifactId>
+    <version>1.0</version>
+    <!--dependencias-->
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-jpa</artifactId>
+        </dependency>
 
+        <dependency>
+            <groupId> mysql </groupId>
+            <artifactId> mysql-connector-java </artifactId>
+        </dependency>
+    </dependencies>
+    <!--repositorios-->
+    <repositories>
+        <repository>
+            <id>spring-libs-release</id>
+            <name>Spring Releases</name>
+            <url>https://repo.spring.io/libs-release</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+</project>
