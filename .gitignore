@@ -1,5 +1,5 @@
-/PontoEletronico/lib/
-/PontoEletronico/web/
-/PontoEletronico/.idea
-/PontoEletronico/.classpath
-/PontoEletronico/.project
+lib/
+web/
+.idea
+.classpath
+.project
